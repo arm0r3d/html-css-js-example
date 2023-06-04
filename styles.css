@@ -1,0 +1,18 @@
+body {
+    background-color: red;
+}
+h1 {
+font-size: 38px;
+color: white;
+}
+h2 {
+font-size: 28px;
+color: lightskyblue;
+}
+h3 {
+    font-size: 18px;
+    color: yellow;
+}
+p {
+    color: white;
+}

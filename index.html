@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Panayot Petrov">
+<title>Petrov's Homework</title>
+</head>
+<body>
+<h1>HTML, CSS & JS homework</h1>
+<p> This is very simple web page to present how <strong>HTML, CSS</strong> and <b>JS</b> work together! </p>
+<p> My homework should <strong>meet all the requirements!</strong> </p>
+<h2>JavaScript examples</h2>
+<h3>Simple Calculator:</h3>
+<form>
+    <div class="row">
+        <label for="number1">First number:</label>
+  <input type="text" name="number1" id="number1" placeholder="type number 1" />
+</div>
+     <div class="row">
+        <label for="operation">Operation:</label>
+  <select name="operation" id="operation">
+    <option disabled selected>-- select an operation --</option>
+    <option value="+"><b>+</b> (sum)</option>
+    <option value="-"><b>-</b> (subtract)</option>
+    <option value="*"><b>*</b> (multiply)</option>
+    <option value="/"><b>/</b> (divide)</option>
+    <option value="**"><b>**</b> (exponentiation)</option>
+  </select>
+</div>
+<div class="row">
+  <label for="number2">Second number:</label>
+  <input type="text" name="number2" id="number2" placeholder="type number 2" />
+</div>
+<div class="buttons-bar">
+  <input type="button" value="Calculate" id="calcButton" />
+  <input type="Reset" value="Reset" id="resetButton" />
+</div>
+<br>
+<div class="row">
+  <label for="result">Result:</label>
+  <input type="text" name="result" id="final" placeholder="final result" />
+</div>
+<script src="calculator.js"></script>
+</form>
+<br>
+<h3>Random number generator:</h3>
+<form>
+  <div class="buttons-bar">
+    <input type="button" value="Generate number" id="calcran" />
+  </div>
+  <br>
+  <div class="row">
+    <label for="result">Output:</label>
+    <input type="text" name="Random Number:" id="random" placeholder="Random number" />
+  </div>
+<script src="randnum.js"></script>
+</form>
+</body>
+</html>
